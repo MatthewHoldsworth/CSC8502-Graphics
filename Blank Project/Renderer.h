@@ -38,11 +38,6 @@ protected:
 	Light light[2];
 	GLuint lightBuffer[2];
 
-	//GLuint shadowTex;
-	//GLuint shadowFBO;
-	//GLuint sceneDiffuse;
-	//GLuint sceneBump;
-
 	vector<Mesh*> sceneMeshes;
 
 	Shader* reflectShader;

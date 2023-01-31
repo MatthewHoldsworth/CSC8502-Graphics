@@ -11,11 +11,6 @@ enum Meshes
 	Cube
 };
 
-enum Textures
-{
-
-};
-
 Renderer::Renderer(Window& parent) : OGLRenderer(parent) {
 	heightMap = new HeightMap(TEXTUREDIR"HeightMap.png");
 	
@@ -118,8 +113,6 @@ Renderer::Renderer(Window& parent) : OGLRenderer(parent) {
 } 
 
 Renderer ::~Renderer(void) {
-	//glDeleteTextures(1, &shadowTex);
-	//glDeleteFramebuffers(1, &shadowFBO);
 	glDeleteBuffers(1, lightBuffer);
 
 	for (auto& i : meshes)
@@ -131,9 +124,6 @@ Renderer ::~Renderer(void) {
 	delete root;
 	delete reflectShader;
 	delete skyboxShader;
-	//delete shadowShader;
-	//delete cube;
-	//delete quad;
 }
 
 void Renderer::UpdateScene(float dt) {
