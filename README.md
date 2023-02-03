@@ -11,3 +11,10 @@ Shadow shader
 Blend shader
 UBO's
 Camera Controls
+
+Controls
+F5: reload shaders
+WASD: forward, left, backward and right strafe
+P: loop through camera motions and lock camera
+O: cancel camera loop and unlock camera
+ESCP: close project window
