@@ -11,8 +11,8 @@ Tutoirials contain further work from me and implementation of the final solution
 |Grey scale|Applied in the fragment shader for the submmitedd work exists a function that provides a  grey scale effect to makes fragments in the distance grey, to add a fog effect and to avoid rendering unnecesary fragments|
 |Post Processing|A gaussian blur effect has been added, which uses the depth buffer and smapling of texture matrix|
 
-Controls \n
-F5: reload shaders\n
+##Controls  
+F5: reload shaders
 WASD: forward, left, backward and right strafe
 P: loop through camera motions and lock camera
 O: cancel camera loop and unlock camera
