@@ -10,6 +10,8 @@ Tutoirials contain further work from me and implementation of the final solution
 |Cube Mapping|In the submitted work project there exists a skybox that has used cube mapping to display a texture over the world where nothing exists|
 |Grey scale|Applied in the fragment shader for the submmitedd work exists a function that provides a  grey scale effect to makes fragments in the distance grey, to add a fog effect and to avoid rendering unnecesary fragments|
 |Post Processing|A gaussian blur effect has been added, which uses the depth buffer and smapling of texture matrix|
+|Scene Hierarchy|Contains a scene hierarchy whihc I implemented into the supplied codebase, as to provide efficient rendering and derived world transformations|
+|Transparency|Textures and colours that have an alpha value lower than 1 will have be transparent as per its alpha value, this alpah blending is done using the opengl generated depth buffer during the fragment shader stage|
 
 ## Controls  
 F5: reload shaders  
