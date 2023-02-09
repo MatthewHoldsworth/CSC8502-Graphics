@@ -1,6 +1,6 @@
 # CSC8502-Graphics
 Graphics project containing the individual challenges and final submission, initial codebase provided by university. 
-As a result much of my work has been towards editing this codebase, althought here addtions by me.
+Tutoirials contain further work from me and implementation of the final solution is my own work. Some tutorials have been removed for not being relevant/being to simple for me to make any of my own adjustements.
 
 ##Summary of Work
 |Feature|Description|
