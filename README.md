@@ -12,6 +12,7 @@ Tutorials contain further work from me, and implementation of the final solution
 |Post Processing|A gaussian blur effect has been added, which uses the depth buffer and smapling of texture matrix|
 |Scene Hierarchy|Contains a scene hierarchy which I implemented into the supplied codebase, as to provide efficient rendering and derived world transformations|
 |Transparency|Textures and colours that have an alpha value lower than 1 will have be transparent as per its alpha value, this alpha blending is done using the OpenGL generated depth buffer during the fragment shader stage|
+|Texture Blending|Through the use of texture arrays the shaders can blend multiple textures together on the same mesh based of world height position of the fragment|
 
 ## Controls  
 F5: reload shaders  
